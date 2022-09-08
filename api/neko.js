@@ -1,4 +1,3 @@
-
 export default function handler(req, res) {
 let output = nekos[Math.floor(Math.random() * nekos.length)];
 res.status(200).send({
