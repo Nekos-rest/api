@@ -1,8 +1,8 @@
-export default function handler(req, res) {
 
+export default function handler(req, res) {
 let output = res.status(200).send(nekos[Math.floor(Math.random() * nekos.length)])
 res.status(200).send({
-output: output
+output
 });
 
 }
