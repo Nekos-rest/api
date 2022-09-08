@@ -1,0 +1,145 @@
+body {
+    background-color: #1a1a1a;
+}
+
+header {
+  background-color: #353535;
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+header h1 {
+  margin-top: -5px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+header .logo {
+  float: left;
+  margin-top: -5px;
+  margin-right: 1px;
+  height: 64px;
+  width: 64px;
+}
+
+.btn {
+  background: #5E5DF0;
+  border-radius: 500px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  width: fit-content;
+  border: 0;
+  float: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 15px;
+  margin-right: 10px;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family:Helvetica;
+  font-size:inherit;
+  font-weight:inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+  font-family:Helvetica;
+  font-size:inherit;
+  font-weight:inherit;
+}
+
+.container {
+line-height: 0.35;
+}
+
+.center {
+    text-align: center;
+    color: #fff;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.img {
+width: 25%;
+height: 13.5%;
+}
+
+footer {
+  background-color: #353535;
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  text-align: center;
+  font-size:16px;
+}
+
+
+@media screen and (max-width: 340px) {
+  header h1 {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+  @media screen and (max-width: 550px) {
+    .img {
+      width: 75%;
+      height: 75%;
+    }
+    .center {
+      font-size: 50px;
+    }
+  }
