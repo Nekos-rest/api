@@ -7,5 +7,5 @@ const imageBuffer = fs.readFileSync(filePath)
 
 export default function(req, res) {
 res.setHeader('Content-Type', 'image/png')
-res.sendFile(imageBuffer)
+res.send(imageBuffer)
 }
