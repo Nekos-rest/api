@@ -1,9 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default function handler(req, res) {
-  var express = require('express');
-var router = express.Router();
-router.get('/', (req, res) => {
 
 var nekos = [
 {url: "https://assets.nekos.rest/Nekos/1.jpg",
@@ -237,9 +234,6 @@ res.status(200).send({
 status: "200",
 output: res.status(200).send(nekos[Math.floor(Math.random() * nekos.length)])
 });
-});
-module.exports = router
-
 
 /*
 {url: "https://assets.nekos.rest/Nekos/.jpg",
