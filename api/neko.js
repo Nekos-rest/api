@@ -5,7 +5,7 @@ let output = nekos[Math.floor(Math.random() * nekos.length)]
 
 res.status(200).json({
 status: "200",
-output: output
+output
 });
 
 }
