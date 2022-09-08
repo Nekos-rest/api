@@ -1,9 +1,12 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default function handler(req, res) {
-let output = res.status(200).send(nekos[Math.floor(Math.random() * nekos.length)])
 
-output
+res.status(200).json(
+{
+output: res.status(200).send(nekos[Math.floor(Math.random() * nekos.length)])
+}
+)
 
 var nekos = [
 {url: "https://assets.nekos.rest/Nekos/1.jpg",
