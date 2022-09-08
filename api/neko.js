@@ -1,12 +1,8 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
 export default function handler(req, res) {
 
-res.status(200).json(
-{
+res.status(200).send({
 output: res.status(200).send(nekos[Math.floor(Math.random() * nekos.length)])
-}
-)
+});
 
 }
 
