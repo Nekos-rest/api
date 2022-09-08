@@ -8,6 +8,8 @@ output: res.status(200).send(nekos[Math.floor(Math.random() * nekos.length)])
 }
 )
 
+}
+
 var nekos = [
 {url: "https://assets.nekos.rest/Nekos/1.jpg",
 source: "https://www.pixiv.net/en/artworks/94638266", 
@@ -235,6 +237,3 @@ artist: "https://www.pixiv.net/en/users/56017669"},
 source: "https://www.pixiv.net/en/artworks/98834981",
 artist: "https://www.pixiv.net/en/users/5772708"},
 ]
-
-}
-
