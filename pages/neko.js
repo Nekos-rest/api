@@ -232,7 +232,7 @@ artist: "https://www.pixiv.net/en/users/5772708"},
 
 res.status(200).send({
 status: "200",
-output: res.status(200).send(nekos[Math.floor(Math.random() * nekos.length)])
+output: nekos[Math.floor(Math.random() * nekos.length)]
 });
 
 /*
