@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default function handler(req, res) {
-let output = res.status(200).send(nekos[Math.floor(Math.random() * nekos.length)])
+let output = nekos[Math.floor(Math.random() * nekos.length)];
 
 res.status(200).send({
 status: "200",
